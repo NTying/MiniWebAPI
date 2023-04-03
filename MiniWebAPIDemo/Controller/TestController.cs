@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
 
-namespace MiniWebAPIDemo
+namespace MiniWebAPIDemo.Controller
 {
     public class TestController
     {
