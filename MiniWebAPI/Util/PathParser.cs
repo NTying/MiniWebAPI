@@ -23,7 +23,7 @@ namespace MiniWebAPI.Util
             }
 
             // Get the Controller and Action name
-            var match = Regex.Match(path, "/([a-zA-Z0-9]+)/([a-zA-Z0-9])");
+            var match = Regex.Match(path, "/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)");
             if (!match.Success)
             {
                 return (false, null, null);

@@ -40,7 +40,7 @@ namespace MiniWebAPI
 
         public MethodInfo? LocateActionMethod(string controllerName, string actionName)
         {
-            string key = $"{controllerName}_{actionName}";
+            string key = $"{controllerName}.{actionName}";
             data.TryGetValue(key, out MethodInfo? method);
             return method;
         }
